@@ -102,10 +102,17 @@ body {
     border-radius: 8px;
     border: 1px solid #EDEDED;
     background: #FCF6FF;
+    margin: 0 24px;
 
     &:first-child {
       margin-right: 40px;
     }
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -234,21 +241,34 @@ body {
       display: flex;
       flex: 3;
       gap: 30px;
-      margin: 132px 0 172px;
+      margin: 132px auto 172px;
+      width: 1179px;
+      justify-content: space-between;
 
       a{
         color: #FFF;
         text-decoration: none;
         padding: 20px;
         border-bottom: 1px solid #737373;
+        width: 100%;
       }
 
       span {
         display: flex;
+        justify-content: space-between;
         align-items: center;
+        width: 100%;
 
-        .social-icon {
-          margin-right: 16px;
+        div {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          color: #EDEDED;
+          font-family: Roboto;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 180%; /* 36px */
         }
       }
     }

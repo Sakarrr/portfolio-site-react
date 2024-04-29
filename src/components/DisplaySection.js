@@ -10,10 +10,10 @@ function displaySection() {
         <div className="display-section">
             <div className="container">
                 <div className="display-content-top">
-                    <div>
+                    <div className={"logo-container"}>
                         <img src={magazinex} alt="MagazineX"/>
                     </div>
-                    <div>
+                    <div className={"logo-container"}>
                         <img src={magazineblocks} alt="MagazineX"/>
                     </div>
                 </div>

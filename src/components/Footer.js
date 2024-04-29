@@ -28,24 +28,27 @@ function footer() {
                         Hire Me ! <br/>
                         Together We'll Bring Idea to Life
                     </h4>
-                    <span className={"footer-cta"}>
+                    <span className={"footer-cta"} id={"footer-cta"}>
                         ctha.sakar@gmail.com
                     </span>
                     <p>Click to copy email ☝️</p>
                     <div className="footer-social">
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <a href="#" target="_blank" rel="noreferrer">
                             <span>
-                                <div className={"social-icon"}> {github} </div>  GitHub.com {arrow}
+                                <div className={"social-icon"}> {github}  GitHub.com </div>  {arrow}
                             </span>
                         </a>
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <a href="#" target="_blank" rel="noreferrer">
                             <span>
-                                <div className={"social-icon"}> {github} </div> GitHub.com {arrow}
+                                <div className={"social-icon"}> {github} GitHub.com </div>  {arrow}
                             </span>
                         </a>
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <a href="#" target="_blank" rel="noreferrer">
                             <span>
-                                <div className={"social-icon"}> {github} </div> GitHub.com {arrow}
+                                <div className={"social-icon"}> {github} GitHub.com </div>  {arrow}
                             </span>
                         </a>
                     </div>
