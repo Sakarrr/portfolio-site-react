@@ -2,6 +2,8 @@ import React from "react";
 import magazinex from "../assets/MagazineX.png";
 import magazineblocks from "../assets/MagazineBlocks.png";
 import reactjs from "../assets/ReactJs.png";
+import javascript from "../assets/JavaScript.png";
+import php from "../assets/PHP.png";
 
 function displaySection() {
     return (
@@ -28,17 +30,17 @@ function displaySection() {
                             </div>
                         </span>
                         <span>
-                            <img src={reactjs} alt="ReactJS"/>
+                            <img src={javascript} alt="ReactJS"/>
                             <div className={"description"}>
-                                <h4>React.js</h4>
-                                <p>JavaScript library by Facebook.</p>
+                                <h4>JavaScript</h4>
+                                <p>Versatile scripting language used for web development, often associated with client-side interactivity.</p>
                             </div>
                         </span>
                         <span>
-                            <img src={reactjs} alt="ReactJS"/>
+                            <img src={php} alt="ReactJS"/>
                             <div className={"description"}>
-                                <h4>React.js</h4>
-                                <p>JavaScript library by Facebook.</p>
+                                <h4>Php</h4>
+                                <p>Server-side scripting language commonly used for web development, known for its flexibility and integration with databases.</p>
                             </div>
                         </span>
                     </div>
