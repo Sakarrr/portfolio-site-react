@@ -166,3 +166,115 @@ body {
     }
   }
 }
+
+.footer {
+  background: #111;
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+      text-align: center;
+      color: #DBDBDB;
+      text-shadow: 0px 4px 0px rgba(159, 159, 159, 0.12);
+      font-family: "Frank Ruhl Libre";
+      font-size: 66px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .footer-head {
+      display: flex;
+      padding: 9px 15.429px;
+      justify-content: center;
+      align-items: center;
+      gap: 10.286px;
+      border-radius: 25.071px;
+      border: 0.643px solid #FFF;
+      background: rgba(84, 84, 84, 0.04);
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 180%; /* 28.8px */
+      margin-top: 175px;
+    }
+
+    .footer-cta {
+      display: flex;
+      padding: 12px 32px;
+      justify-content: center;
+      align-items: center;
+      gap: 10.286px;
+      border-radius: 50px;
+      border: 1px solid #FFF;
+      background: #FFF;
+      color: #111;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 180%; /* 36px */
+    }
+
+    p {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 180%; /* 32.4px */
+    }
+
+    .footer-social {
+      display: flex;
+      flex: 3;
+      gap: 30px;
+      margin: 132px 0 172px;
+
+      a{
+        color: #FFF;
+        text-decoration: none;
+        padding: 20px;
+        border-bottom: 1px solid #737373;
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+
+        .social-icon {
+          margin-right: 16px;
+        }
+      }
+    }
+  }
+
+  .footer-line {
+    border-bottom: 1px solid #EDEDED;
+    margin-top: 5px;
+    width: 1408px;
+    margin: auto;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+
+    span {
+      margin: 75px 0;
+      color: #EDEDED;
+      font-family: "Inria Serif";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
+
+
