@@ -1,17 +1,17 @@
-import './App.css';
-import NavBar from "./components/NavBar";
+import "./App.css";
+import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import DisplaySection from "./components/DisplaySection";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-      <body>
-      < NavBar />
-      < HeroSection />
-      < DisplaySection />
-      < Footer />
-      </body>
+    <body>
+      <Header />
+      <HeroSection />
+      <DisplaySection />
+      <Footer />
+    </body>
   );
 }
 

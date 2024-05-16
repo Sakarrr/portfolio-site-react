@@ -3,15 +3,15 @@ body {
   margin: auto;
 }
 
-.ss__header--navbar {
+.ss-header__navbar {
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    margin: 0  24px;
+    margin: 0 24px;
 
-    .branding {
+    .ss-header__navbar__branding {
       padding: 10px;
       color: #212529;
       font-family: "Inria Serif";
@@ -21,7 +21,7 @@ body {
       line-height: normal;
     }
 
-    .links {
+    .ss-header__navbar__links {
       display: flex;
       gap: 16px;
     }
@@ -29,7 +29,7 @@ body {
 }
 
 .line {
-  border-bottom: 1px solid #EDEDED;
+  border-bottom: 1px solid #ededed;
   margin-top: 5px;
   width: 1408px;
   margin: auto;
@@ -39,10 +39,10 @@ body {
   display: grid;
   margin: 200px;
 
-  h1{
+  h1 {
     display: flex;
     margin: 0 0 32px 0;
-    color: #081C15;
+    color: #081c15;
     text-shadow: 0px 4px 0px rgba(8, 28, 21, 0.12);
     font-family: "Frank Ruhl Libre";
     font-size: 70px;
@@ -51,7 +51,7 @@ body {
     line-height: normal;
 
     span {
-      color: #081C15;
+      color: #081c15;
       font-family: "Frank Ruhl Libre";
       font-size: 52px;
       font-style: normal;
@@ -69,9 +69,9 @@ body {
     font-weight: 400;
     line-height: 180%; /* 36px */
 
-    &.tag{
+    &.tag {
       margin-bottom: 20px;
-      color: #555A60;
+      color: #555a60;
       font-family: Roboto;
       font-size: 16px;
       font-style: normal;
@@ -100,8 +100,8 @@ body {
     height: 450px;
     margin: auto;
     border-radius: 8px;
-    border: 1px solid #EDEDED;
-    background: #FCF6FF;
+    border: 1px solid #ededed;
+    background: #fcf6ff;
     margin: 0 24px;
 
     &:first-child {
@@ -135,17 +135,18 @@ body {
     display: flex;
     gap: 30px;
 
-    span{
+    span {
       display: flex;
       flex: 2;
       gap: 16px;
       align-items: center;
       padding: 20px;
       border-radius: 22px;
-      border: 1px solid #EDEDED;
-      background: #FAFAFA;
+      border: 1px solid #ededed;
+      background: #fafafa;
 
-      h4, p {
+      h4,
+      p {
         margin: 0;
       }
       h4 {
@@ -184,7 +185,7 @@ body {
 
     h4 {
       text-align: center;
-      color: #DBDBDB;
+      color: #dbdbdb;
       text-shadow: 0px 4px 0px rgba(159, 159, 159, 0.12);
       font-family: "Frank Ruhl Libre";
       font-size: 66px;
@@ -200,9 +201,9 @@ body {
       align-items: center;
       gap: 10.286px;
       border-radius: 25.071px;
-      border: 0.643px solid #FFF;
+      border: 0.643px solid #fff;
       background: rgba(84, 84, 84, 0.04);
-      color: #FFF;
+      color: #fff;
       font-family: Roboto;
       font-size: 16px;
       font-style: normal;
@@ -218,8 +219,8 @@ body {
       align-items: center;
       gap: 10.286px;
       border-radius: 50px;
-      border: 1px solid #FFF;
-      background: #FFF;
+      border: 1px solid #fff;
+      background: #fff;
       color: #111;
       font-family: Roboto;
       font-size: 20px;
@@ -229,7 +230,7 @@ body {
     }
 
     p {
-      color: #FFF;
+      color: #fff;
       font-family: Roboto;
       font-size: 18px;
       font-style: normal;
@@ -245,8 +246,8 @@ body {
       width: 1179px;
       justify-content: space-between;
 
-      a{
-        color: #FFF;
+      a {
+        color: #fff;
         text-decoration: none;
         padding: 20px;
         border-bottom: 1px solid #737373;
@@ -263,7 +264,7 @@ body {
           display: flex;
           align-items: center;
           gap: 16px;
-          color: #EDEDED;
+          color: #ededed;
           font-family: Roboto;
           font-size: 20px;
           font-style: normal;
@@ -275,7 +276,7 @@ body {
   }
 
   .footer-line {
-    border-bottom: 1px solid #EDEDED;
+    border-bottom: 1px solid #ededed;
     margin-top: 5px;
     width: 1408px;
     margin: auto;
@@ -287,7 +288,7 @@ body {
 
     span {
       margin: 75px 0;
-      color: #EDEDED;
+      color: #ededed;
       font-family: "Inria Serif";
       font-size: 24px;
       font-style: normal;
@@ -296,5 +297,3 @@ body {
     }
   }
 }
-
-
