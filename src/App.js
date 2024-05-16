@@ -1,15 +1,13 @@
 import "./App.css";
 import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import DisplaySection from "./components/DisplaySection";
+import Content from "./components/Content";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <body>
       <Header />
-      <HeroSection />
-      <DisplaySection />
+      <Content />
       <Footer />
     </body>
   );
