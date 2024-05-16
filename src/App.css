@@ -1,6 +1,12 @@
 body {
-  width: 1440px;
+  width: 97%;
   margin: auto;
+  box-sizing: border-box;
+
+  @media screen and (min-width: 1190px) {
+    width: 1440px;
+    margin: auto;
+  }
 }
 
 .ss-header__navbar {
@@ -37,7 +43,7 @@ body {
 
 .hero-content {
   display: grid;
-  margin: 200px;
+  margin: 10px 10px 40px 10px;
 
   h1 {
     display: flex;
@@ -89,6 +95,11 @@ body {
       display: flex;
       gap: 8px;
     }
+  }
+
+  @media screen and (min-width: 1190px) {
+    display: grid;
+    margin: 200px;
   }
 }
 
