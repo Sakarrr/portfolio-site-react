@@ -1,12 +1,12 @@
 import React from "react";
-import HeroSection from "./HeroSection";
-import DisplaySection from "./DisplaySection";
+import Intro from "./Intro";
+import Portfolio from "./Portfolio";
 
 const Content = () => {
   return (
     <>
-      <HeroSection />
-      <DisplaySection />
+      <Intro />
+      <Portfolio />
     </>
   );
 };
