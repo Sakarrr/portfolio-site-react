@@ -1,4 +1,5 @@
 import React from "react";
+import cv from "../assets/Sakar_Shrestha_CV_2024.pdf";
 
 function IntroSection() {
   return (
@@ -23,7 +24,7 @@ function IntroSection() {
       </p>
       <span className="ss-intro__download-cv">
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a>
+        <a href={cv} download="Sakar_Shrestha_CV_2024.pdf">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
