@@ -4,6 +4,7 @@ import magazineblocks from "../assets/MagazineBlocks.png";
 import reactjs from "../assets/ReactJs.png";
 import javascript from "../assets/JavaScript.png";
 import php from "../assets/PHP.png";
+import css from "../assets/CSS.png";
 
 function Portfolio() {
   return (
@@ -26,16 +27,7 @@ function Portfolio() {
         </h2>
         <div className="ss-portfolio__skills-list">
           <span className="ss-portfolio__skill">
-            <img src={reactjs} alt="ReactJS" />
-            <div className={"ss-portfolio__skill-content"}>
-              <h4 className="ss-portfolio__skill-title">React.js</h4>
-              <p className="ss-portfolio__skill-description">
-                JavaScript library by Facebook.
-              </p>
-            </div>
-          </span>
-          <span className="ss-portfolio__skill">
-            <img src={javascript} alt="ReactJS" />
+            <img src={javascript} alt="JavaScript" />
             <div className={"ss-portfolio__skill-content"}>
               <h4 className="ss-portfolio__skill-title">JavaScript</h4>
               <p className="ss-portfolio__skill-description">
@@ -45,9 +37,20 @@ function Portfolio() {
             </div>
           </span>
           <span className="ss-portfolio__skill">
-            <img src={php} alt="ReactJS" />
+            <img src={reactjs} alt="ReactJS" />
             <div className={"ss-portfolio__skill-content"}>
-              <h4 className="ss-portfolio__skill-title">Php</h4>
+              <h4 className="ss-portfolio__skill-title">React.js</h4>
+              <p className="ss-portfolio__skill-description">
+                A JavaScript library for building user interfaces, enabling the
+                creation of reusable UI components and managing state
+                efficiently.
+              </p>
+            </div>
+          </span>
+          <span className="ss-portfolio__skill">
+            <img src={php} alt="PHP" />
+            <div className={"ss-portfolio__skill-content"}>
+              <h4 className="ss-portfolio__skill-title">PHP</h4>
               <p className="ss-portfolio__skill-description">
                 Server-side scripting language, known for its flexibility and
                 integration with databases.
@@ -55,29 +58,33 @@ function Portfolio() {
             </div>
           </span>
           <span className="ss-portfolio__skill">
-            <img src={reactjs} alt="ReactJS" />
+            <img src={css} alt="CSS" />
             <div className={"ss-portfolio__skill-content"}>
-              <h4 className="ss-portfolio__skill-title">React.js</h4>
+              <h4 className="ss-portfolio__skill-title">CSS</h4>
               <p className="ss-portfolio__skill-description">
-                JavaScript library by Facebook.
+                Stylesheet language used to describe the presentation of a
+                document written in HTML or XML.
               </p>
             </div>
           </span>
           <span className="ss-portfolio__skill">
-            <img src={reactjs} alt="ReactJS" />
+            <img src={reactjs} alt="Sass" />
             <div className={"ss-portfolio__skill-content"}>
-              <h4 className="ss-portfolio__skill-title">React.js</h4>
+              <h4 className="ss-portfolio__skill-title">Sass</h4>
               <p className="ss-portfolio__skill-description">
-                JavaScript library by Facebook.
+                Advanced CSS preprocessor that offers variables, nesting, and
+                mixins to streamline and enhance stylesheet development.
               </p>
             </div>
           </span>
           <span className="ss-portfolio__skill">
-            <img src={reactjs} alt="ReactJS" />
+            <img src={reactjs} alt="WordPress" />
             <div className={"ss-portfolio__skill-content"}>
-              <h4 className="ss-portfolio__skill-title">React.js</h4>
+              <h4 className="ss-portfolio__skill-title">WordPress</h4>
               <p className="ss-portfolio__skill-description">
-                JavaScript library by Facebook.
+                A flexible, open-source CMS platform for building and managing
+                websites, with extensive themes and plugins to customize
+                functionality and design.
               </p>
             </div>
           </span>
