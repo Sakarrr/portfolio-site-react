@@ -19,7 +19,7 @@ function IntroSection() {
         Working with my hands to make magic happen on the internet.
       </p>
       <p className={"ss-intro__tagline"}>
-        Now actively seeking new opportunities.
+        Currently pursuing knowledge and embracing new challenges.
       </p>
       <span className="ss-intro__download-cv">
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
