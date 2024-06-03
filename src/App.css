@@ -16,6 +16,10 @@ body {
   padding: 1rem 0;
   margin: 0 24px;
 
+  .ss-header__logo-link {
+    text-decoration: none;
+  }
+
   .ss-header__logo {
     padding: 10px;
     color: #212529;
@@ -299,4 +303,11 @@ body {
     font-weight: 700;
     line-height: normal;
   }
+}
+
+.ss-resume {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,17 +1,24 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import Content from "./components/Content";
-import HireMe from "./components/HireMe";
 import Footer from "./components/Footer";
+import PdfViewer from "./components/pdfViewer"; // Import PdfViewer component
 
 function App() {
   return (
-    <body>
+    <Router>
       <Header />
-      <Content />
-      <HireMe />
+      <Routes>
+        <Route path="/" element={<Content />} />
+        <Route
+          path="/pdf-viewer"
+          element={<PdfViewer file=".assets/Sakar_Shrestha_CV_2024.pdf" />}
+        />
+      </Routes>
       <Footer />
-    </body>
+    </Router>
   );
 }
 
