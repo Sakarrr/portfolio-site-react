@@ -75,57 +75,54 @@ const twitter = (
 function HireMe() {
   return (
     <div className="ss-hire-me">
-      <div className="footer-content">
-        <span className={"footer-head"}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="9"
-            height="8"
-            viewBox="0 0 9 8"
-            fill="none"
-          >
-            <circle cx="4.85716" cy="4" r="4" fill="#2ADB0D" />
-          </svg>
-          Available for Work
-        </span>
-        <h4>
-          Hire Me ! <br />
-          Together We'll Bring Idea to Life
-        </h4>
-        <span className={"footer-cta"} id={"footer-cta"}>
-          ctha.sakar@gmail.com
-        </span>
-        <p>Click to copy email ☝️</p>
-        <div className="footer-social">
-          <a href="https://github.com/sakarrr" target="_blank" rel="noreferrer">
-            <span>
-              <div className={"social-icon"}> {github} GitHub.com </div>
-              {arrow}
-            </span>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sakarshrestha97/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>
-              <div className={"social-icon"}> {linkedin} LinkedIn.com </div>{" "}
-              {arrow}
-            </span>
-          </a>
-          <a
-            href="https://twitter.com/sakarrstha"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>
-              <div className={"social-icon"}> {twitter} Twitter.com </div>{" "}
-              {arrow}
-            </span>
-          </a>
-        </div>
+      <span className={"ss-hire-me__work-status"}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="9"
+          height="8"
+          viewBox="0 0 9 8"
+          fill="none"
+        >
+          <circle cx="4.85716" cy="4" r="4" fill="#2ADB0D" />
+        </svg>
+        Available for Work
+      </span>
+      <h4 className="ss-hire-me__header">
+        Hire Me ! <br />
+        Together We'll Bring Idea to Life
+      </h4>
+      <span className={"ss-hire-me__cta"} id={"ss-hire-me__cta"}>
+        ctha.sakar@gmail.com
+      </span>
+      <p className="ss-hire-me__cta-description">Click to copy email ☝️</p>
+      <div className="ss-hire-me__social-links">
+        <a href="https://github.com/sakarrr" target="_blank" rel="noreferrer">
+          <span className="ss-hire-me__social-link">
+            <div className={"social-icon"}> {github} GitHub.com </div>
+            {arrow}
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sakarshrestha97/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="ss-hire-me__social-link">
+            <div className={"social-icon"}> {linkedin} LinkedIn.com </div>{" "}
+            {arrow}
+          </span>
+        </a>
+        <a
+          href="https://twitter.com/sakarrstha"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="ss-hire-me__social-link">
+            <div className={"social-icon"}> {twitter} Twitter.com </div> {arrow}
+          </span>
+        </a>
       </div>
-      <div className="footer-line"></div>
+      <div className="ss-divider"></div>
     </div>
   );
 }
