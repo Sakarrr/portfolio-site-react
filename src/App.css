@@ -242,6 +242,10 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 180%; /* 36px */
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .ss-hire-me__cta-description {

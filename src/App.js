@@ -4,7 +4,9 @@ import "./App.css";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
-import PdfViewer from "./components/pdfViewer"; // Import PdfViewer component
+import PdfViewer from "./components/pdfViewer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           element={<PdfViewer file=".assets/Sakar_Shrestha_CV_2024.pdf" />}
         />
       </Routes>
+      <ToastContainer />
       <Footer />
     </Router>
   );

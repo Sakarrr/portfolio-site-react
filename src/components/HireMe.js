@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 let arrow = (
   <svg
@@ -73,6 +75,25 @@ const twitter = (
 );
 
 function HireMe() {
+  const emailRef = useRef(null);
+
+  const handleCopyClick = () => {
+    if (emailRef.current) {
+      const emailText = emailRef.current.innerText;
+      navigator.clipboard.writeText(emailText).then(() => {
+        toast.success("Email copied to clipboard!", {
+          position: "bottom-center",
+          autoClose: 1000,
+        });
+      });
+    } else {
+      toast.error("Error: Email element not found.", {
+        position: "bottom-center",
+        autoClose: 1000,
+      });
+    }
+  };
+
   return (
     <div className="ss-hire-me">
       <span className={"ss-hire-me__work-status"}>
@@ -91,7 +112,12 @@ function HireMe() {
         Hire Me ! <br />
         Together We'll Bring Idea to Life
       </h4>
-      <span className={"ss-hire-me__cta"} id={"ss-hire-me__cta"}>
+      <span
+        ref={emailRef}
+        className={"ss-hire-me__cta"}
+        id={"ss-hire-me__cta"}
+        onClick={handleCopyClick}
+      >
         ctha.sakar@gmail.com
       </span>
       <p className="ss-hire-me__cta-description">Click to copy email ☝️</p>
