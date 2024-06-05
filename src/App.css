@@ -1,12 +1,7 @@
 body {
-  width: 97%;
+  width: 1440px;
   margin: auto;
   box-sizing: border-box;
-
-  @media screen and (min-width: 1190px) {
-    width: 1440px;
-    margin: auto;
-  }
 }
 
 .ss-header {
@@ -100,10 +95,8 @@ body {
     }
   }
 
-  @media screen and (min-width: 1190px) {
-    display: grid;
-    margin: 200px;
-  }
+  display: grid;
+  margin: 200px;
 }
 
 .ss-portfolio__projects {
