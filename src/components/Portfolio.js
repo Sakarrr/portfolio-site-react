@@ -1,10 +1,13 @@
 import React from "react";
 import magazinex from "../assets/MagazineX.png";
 import magazineblocks from "../assets/MagazineBlocks.png";
+import colormag from "../assets/ColorMag.png";
 import reactjs from "../assets/ReactJs.png";
 import javascript from "../assets/JavaScript.png";
 import php from "../assets/PHP.png";
 import css from "../assets/CSS.png";
+import wordpress from "../assets/WordPress.png";
+import sass from "../assets/Sass.png";
 
 function Portfolio() {
   return (
@@ -17,7 +20,7 @@ function Portfolio() {
           <img src={magazineblocks} alt="MagazineX" />
         </div>
         <div className={"ss-portfolio__project-logo"}>
-          <h1>ColorMag</h1>
+          <img src={colormag} alt="ColorMag" />
         </div>
       </div>
       <div className="ss-portfolio__skills">
@@ -68,7 +71,7 @@ function Portfolio() {
             </div>
           </span>
           <span className="ss-portfolio__skill">
-            <img src={reactjs} alt="Sass" />
+            <img src={sass} alt="Sass" />
             <div className={"ss-portfolio__skill-content"}>
               <h4 className="ss-portfolio__skill-title">Sass</h4>
               <p className="ss-portfolio__skill-description">
@@ -78,7 +81,7 @@ function Portfolio() {
             </div>
           </span>
           <span className="ss-portfolio__skill">
-            <img src={reactjs} alt="WordPress" />
+            <img src={wordpress} alt="WordPress" />
             <div className={"ss-portfolio__skill-content"}>
               <h4 className="ss-portfolio__skill-title">WordPress</h4>
               <p className="ss-portfolio__skill-description">

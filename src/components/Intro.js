@@ -10,7 +10,7 @@ function IntroSection() {
       <p className="ss-intro__description">
         Motivated{" "}
         <b>
-          <i> Frontend developer </i>
+          <i> Frontend/WordPress Developer </i>
         </b>{" "}
         and{" "}
         <b>
