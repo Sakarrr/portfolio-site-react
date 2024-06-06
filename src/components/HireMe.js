@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import blinkAnimation from "../assets/blinkEffect.gif";
 
 let arrow = (
   <svg
@@ -97,15 +98,7 @@ function HireMe() {
   return (
     <div className="ss-hire-me">
       <span className={"ss-hire-me__work-status"}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="9"
-          height="8"
-          viewBox="0 0 9 8"
-          fill="none"
-        >
-          <circle cx="4.85716" cy="4" r="4" fill="#2ADB0D" />
-        </svg>
+        <img src={blinkAnimation} />
         Available for Work
       </span>
       <h4 className="ss-hire-me__header">
