@@ -9,7 +9,7 @@ import css from "../assets/CSS.png";
 import wordpress from "../assets/WordPress.png";
 import sass from "../assets/Sass.png";
 
-function Portfolio() {
+const Portfolio = () => {
   return (
     <div className="ss-portfolio">
       <div className="ss-portfolio__projects">
@@ -95,6 +95,6 @@ function Portfolio() {
       </div>
     </div>
   );
-}
+};
 
 export default Portfolio;

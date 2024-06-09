@@ -1,41 +1,9 @@
+@import url("styles/header.css");
+
 body {
   width: 1440px;
   margin: auto;
   box-sizing: border-box;
-}
-
-.ss-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
-  margin: 0 24px;
-
-  .ss-header__logo-link {
-    text-decoration: none;
-  }
-
-  .ss-header__logo {
-    padding: 10px;
-    color: #212529;
-    font-family: "Inria Serif";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .ss-header__navbar__links {
-    display: flex;
-    gap: 16px;
-  }
-}
-
-.ss-divider {
-  border-bottom: 1px solid #ededed;
-  margin-top: 5px;
-  width: 1408px;
-  margin: auto;
 }
 
 .ss-intro {
@@ -218,6 +186,11 @@ body {
     font-weight: 400;
     line-height: 180%; /* 28.8px */
     margin-top: 175px;
+
+    img {
+      height: 10px;
+      height: 10px;
+    }
   }
 
   .ss-hire-me__cta {

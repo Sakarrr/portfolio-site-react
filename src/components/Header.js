@@ -4,7 +4,7 @@ import github from "../assets/GitHub.png";
 import linkedin from "../assets/LinkedIn.png";
 import resume from "../assets/Resume.png";
 
-function Header() {
+const Header = () => {
   return (
     <>
       <div className="ss-header">
@@ -42,6 +42,6 @@ function Header() {
       <div className="ss-divider"></div>
     </>
   );
-}
+};
 
 export default Header;

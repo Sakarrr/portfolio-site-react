@@ -75,7 +75,7 @@ const twitter = (
   </svg>
 );
 
-function HireMe() {
+const HireMe = () => {
   const emailRef = useRef(null);
 
   const handleCopyClick = () => {
@@ -98,7 +98,7 @@ function HireMe() {
   return (
     <div className="ss-hire-me">
       <span className={"ss-hire-me__work-status"}>
-        <img src={blinkAnimation} />
+        <img src={blinkAnimation} alt="Work Status" />
         Available for Work
       </span>
       <h4 className="ss-hire-me__header">
@@ -144,6 +144,6 @@ function HireMe() {
       <div className="ss-divider"></div>
     </div>
   );
-}
+};
 
 export default HireMe;

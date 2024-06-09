@@ -1,7 +1,7 @@
 import React from "react";
 import cv from "../assets/Sakar_Shrestha_CV_2024.pdf";
 
-function IntroSection() {
+const IntroSection = () => {
   return (
     <div className="ss-intro">
       <h1 className="ss-intro__title">
@@ -66,6 +66,6 @@ function IntroSection() {
       </span>
     </div>
   );
-}
+};
 
 export default IntroSection;

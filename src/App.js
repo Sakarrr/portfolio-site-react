@@ -8,7 +8,7 @@ import PdfViewer from "./components/pdfViewer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Header />
@@ -23,6 +23,6 @@ function App() {
       <Footer />
     </Router>
   );
-}
+};
 
 export default App;
