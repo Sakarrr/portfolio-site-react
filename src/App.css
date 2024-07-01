@@ -282,3 +282,5 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@import url("styles/responsive.css");
