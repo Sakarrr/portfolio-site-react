@@ -1,0 +1,25 @@
+.ss-portfolio__projects {
+    display: flex;
+  
+    .ss-portfolio__project-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      height: 450px;
+      margin: auto;
+      border-radius: 8px;
+      border: 1px solid #ededed;
+      background: #fcf6ff;
+      margin: 0 24px;
+  
+      &:first-child {
+        margin-right: 40px;
+      }
+  
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  
