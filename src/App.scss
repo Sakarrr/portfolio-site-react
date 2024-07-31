@@ -104,11 +104,16 @@ body {
     font-weight: 400;
     line-height: 30px;
     margin-top: 175px;
+    margin-bottom: 32px;
 
     img {
       height: 10px;
       height: 10px;
     }
+  }
+
+  .ss-hire-me__header {
+    margin-bottom: 48px;
   }
 
   .ss-hire-me__cta {
@@ -125,6 +130,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 36px;
+    margin-bottom: 8px;
 
     &:hover {
       cursor: pointer;
@@ -141,18 +147,20 @@ body {
 
   .ss-hire-me__social-links {
     display: flex;
-    flex: 3;
     gap: 30px;
     margin: 132px auto 172px;
-    width: 1179px;
+    max-width: 1179px;
+    width: 96%;
     justify-content: space-between;
+    align-items: center;
 
     a {
       color: #fff;
       text-decoration: none;
-      padding: 20px;
+      padding: 20px 0;
       border-bottom: 1px solid #737373;
-      width: 100%;
+      width: 96%;
+      max-width: 96%;
     }
 
     span {

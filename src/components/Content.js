@@ -8,7 +8,7 @@ const Content = () => {
     <>
       <Intro />
       <Portfolio />
-      {/*<HireMe />*/}
+      <HireMe />
     </>
   );
 };

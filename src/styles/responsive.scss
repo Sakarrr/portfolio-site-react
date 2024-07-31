@@ -44,6 +44,16 @@
       grid-template-columns: repeat(2, 1fr) !important;
     }
   }
+
+  .ss-hire-me {
+    h4 {
+      font-size: 38px !important;
+    }
+
+    .ss-hire-me__social-links {
+      flex-direction: column;
+    }
+  }
 }
 
 /* Mobile styles */
