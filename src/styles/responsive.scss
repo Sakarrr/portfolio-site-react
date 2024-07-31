@@ -5,3 +5,9 @@
 /* Mobile styles */
 @media (max-width: 768px) {
 }
+
+@media (max-width: 465px) {
+  .ss-header .ss-container .ss-row {
+    flex-direction: column;
+  }
+}

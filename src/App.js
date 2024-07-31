@@ -13,14 +13,14 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Content />} />
+        {/*<Route path="/" element={<Content />} />*/}
         <Route
           path="/pdf-viewer"
           element={<PdfViewer file=".assets/Sakar_Shrestha_CV_2024.pdf" />}
         />
       </Routes>
-      <ToastContainer />
-      <Footer />
+      {/*<ToastContainer />*/}
+      {/*<Footer />*/}
     </Router>
   );
 };
