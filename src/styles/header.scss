@@ -1,9 +1,13 @@
 .ss-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
-  margin: 0 24px;
+  .ss-container {
+    .ss-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+      margin: 0 24px;
+    }
+  }
 
   .ss-header__logo-link {
     text-decoration: none;

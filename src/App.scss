@@ -1,13 +1,15 @@
-@import url("styles/header.css");
+@import url("styles/header.scss");
+@import url("styles/intro.scss");
+@import url("styles/portfolio.scss");
 
-body {
-  width: 1440px;
-  margin: auto;
-  box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-
+body {
+  box-sizing: border-box;
+}
 
 .ss-portfolio__skills {
   width: 1170px;
@@ -70,9 +72,12 @@ body {
 
 .ss-hire-me {
   background: #111;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  .ss-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   h4 {
     text-align: center;
@@ -190,4 +195,4 @@ body {
   align-items: center;
 }
 
-@import url("styles/responsive.css");
+@import url("styles/responsive.scss");

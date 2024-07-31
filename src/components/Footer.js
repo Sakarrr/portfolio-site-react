@@ -3,7 +3,11 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="ss-footer">
-      <span> SS. </span>
+      <div className="ss-container">
+        <div className="ss-row">
+          <span> SS. </span>
+        </div>
+      </div>
     </div>
   );
 };

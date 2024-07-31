@@ -97,50 +97,60 @@ const HireMe = () => {
 
   return (
     <div className="ss-hire-me">
-      <span className={"ss-hire-me__work-status"}>
-        <img src={blinkAnimation} alt="Work Status" />
-        Available for Work
-      </span>
-      <h4 className="ss-hire-me__header">
-        Hire Me ! <br />
-        Together We'll Bring Idea to Life
-      </h4>
-      <span
-        ref={emailRef}
-        className={"ss-hire-me__cta"}
-        id={"ss-hire-me__cta"}
-        onClick={handleCopyClick}
-      >
-        ctha.sakar@gmail.com
-      </span>
-      <p className="ss-hire-me__cta-description">Click to copy email ☝️</p>
-      <div className="ss-hire-me__social-links">
-        <a href="https://github.com/sakarrr" target="_blank" rel="noreferrer">
-          <span className="ss-hire-me__social-link">
-            <div className={"social-icon"}> {github} GitHub.com </div>
-            {arrow}
+      <div className="ss-container">
+        <div className="ss-row">
+          <span className={"ss-hire-me__work-status"}>
+            <img src={blinkAnimation} alt="Work Status" />
+            Available for Work
           </span>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/sakarshrestha97/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="ss-hire-me__social-link">
-            <div className={"social-icon"}> {linkedin} LinkedIn.com </div>{" "}
-            {arrow}
+          <h4 className="ss-hire-me__header">
+            Hire Me ! <br />
+            Together We'll Bring Idea to Life
+          </h4>
+          <span
+            ref={emailRef}
+            className={"ss-hire-me__cta"}
+            id={"ss-hire-me__cta"}
+            onClick={handleCopyClick}
+          >
+            ctha.sakar@gmail.com
           </span>
-        </a>
-        <a
-          href="https://twitter.com/sakarrstha"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="ss-hire-me__social-link">
-            <div className={"social-icon"}> {twitter} Twitter.com </div> {arrow}
-          </span>
-        </a>
+          <p className="ss-hire-me__cta-description">Click to copy email ☝️</p>
+          <div className="ss-hire-me__social-links">
+            <a
+              href="https://github.com/sakarrr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="ss-hire-me__social-link">
+                <div className={"social-icon"}> {github} GitHub.com </div>
+                {arrow}
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sakarshrestha97/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="ss-hire-me__social-link">
+                <div className={"social-icon"}> {linkedin} LinkedIn.com </div>{" "}
+                {arrow}
+              </span>
+            </a>
+            <a
+              href="https://twitter.com/sakarrstha"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="ss-hire-me__social-link">
+                <div className={"social-icon"}> {twitter} Twitter.com </div>{" "}
+                {arrow}
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
+
       <div className="ss-divider"></div>
     </div>
   );
