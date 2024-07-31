@@ -12,8 +12,9 @@ body {
 }
 
 .ss-portfolio__skills {
-  width: 1170px;
+  max-width: 1170px;
   margin: 160px auto 120px;
+  padding: 0 20px;
 
   .ss-portfolio__skills-header {
     color: #212529;
@@ -25,13 +26,13 @@ body {
   }
 
   .ss-portfolio__skills-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     flex-wrap: wrap;
 
     .ss-portfolio__skill {
       display: flex;
-      flex: 0 0 27.33333%;
       gap: 16px;
       align-items: center;
       padding: 20px;

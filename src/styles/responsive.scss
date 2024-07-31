@@ -33,7 +33,17 @@
     }
   }
 
+  .ss-portfolio__skills {
+    padding: 20px;
 
+    .ss-portfolio__skills-header {
+      font-size: 38px !important;
+    }
+
+    .ss-portfolio__skills-list{
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
 }
 
 /* Mobile styles */
@@ -48,6 +58,14 @@
 
   .ss-portfolio__projects {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ss-portfolio__skills {
+    padding: 20px;
+
+    .ss-portfolio__skills-list{
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
   }
 }
 
