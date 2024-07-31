@@ -19,8 +19,8 @@ const App = () => {
           element={<PdfViewer file=".assets/Sakar_Shrestha_CV_2024.pdf" />}
         />
       </Routes>
-      {/*<ToastContainer />*/}
-      {/*<Footer />*/}
+      <ToastContainer />
+      <Footer />
     </Router>
   );
 };
