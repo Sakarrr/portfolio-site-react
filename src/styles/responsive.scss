@@ -1,5 +1,38 @@
 /* Tablet styles */
 @media (max-width: 1024px) {
+  .ss-intro .ss-row {
+    padding: 20px;
+  }
+
+  .ss-intro  {
+    .ss-intro__title {
+      h1 {
+        font-size: 38px;
+      }
+
+
+      span {
+        font-size: 36px;
+      }
+    }
+
+    .ss-intro__description {
+      font-size: 15px;
+
+      p {
+        line-height: 20px;
+
+        &:first-child {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .ss-intro__tagline {
+      font-size: 15px;
+    }
+  }
+
 }
 
 /* Mobile styles */
@@ -7,7 +40,11 @@
 }
 
 @media (max-width: 465px) {
-  .ss-header .ss-container .ss-row {
-    flex-direction: column;
+  .ss-header  {
+    .ss-container {
+      .ss-row {
+        flex-direction: column;
+      }
+    }
   }
 }

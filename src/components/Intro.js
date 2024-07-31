@@ -6,20 +6,21 @@ const IntroSection = () => {
     <div className="ss-intro">
       <div className="ss-container">
         <div className="ss-row">
-          <h1 className="ss-intro__title">
-            Hello, I am Sakar Shrestha. <span>👋</span>
-          </h1>
+          <div className="ss-intro__title">
+            <h1>Hello, I am Sakar Shrestha.</h1> <span>👋</span>
+          </div>
           <p className="ss-intro__description">
-            Motivated{" "}
-            <b>
-              <i> Frontend/WordPress Developer </i>
-            </b>{" "}
-            and{" "}
-            <b>
-              <i>JavaScript Engineer</i>
-            </b>
-            . <br></br>
-            Working with my hands to make magic happen on the internet.
+            <p>Motivated{" "}
+              <b>
+                <i>WordPress Developer </i>
+              </b>{" "}
+              and{" "}
+              <b>
+                <i>JavaScript Engineer</i>
+              </b>
+              . <br></br>
+            </p>
+            <p>Working with my hands to make magic happen on the internet.</p>
           </p>
           <p className={"ss-intro__tagline"}>
             Currently pursuing knowledge and embracing new challenges.
@@ -63,7 +64,7 @@ const IntroSection = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              Download CV
+              <span>Download CV</span>
             </a>
           </span>
         </div>
