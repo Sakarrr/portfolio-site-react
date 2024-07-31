@@ -1,10 +1,10 @@
 /* Tablet styles */
 @media (max-width: 1024px) {
-  .ss-intro .ss-row {
-    padding: 20px;
-  }
-
   .ss-intro  {
+    .ss-row {
+      padding: 20px;
+    }
+
     .ss-intro__title {
       h1 {
         font-size: 38px;
@@ -33,10 +33,22 @@
     }
   }
 
+
 }
 
 /* Mobile styles */
 @media (max-width: 768px) {
+  .ss-intro {
+    .ss-intro__title {
+      span {
+        display: none;
+      }
+    }
+  }
+
+  .ss-portfolio__projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 465px) {

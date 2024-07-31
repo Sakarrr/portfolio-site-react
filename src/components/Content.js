@@ -7,7 +7,7 @@ const Content = () => {
   return (
     <>
       <Intro />
-      {/*<Portfolio />*/}
+      <Portfolio />
       {/*<HireMe />*/}
     </>
   );

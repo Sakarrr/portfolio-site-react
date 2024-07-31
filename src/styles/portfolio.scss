@@ -1,24 +1,24 @@
 .ss-portfolio__projects {
-    display: flex;
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin: 0 24px;
+  max-width: 100%;
+
     .ss-portfolio__project-logo {
       display: flex;
       justify-content: center;
       align-items: center;
       flex: 1;
-      height: 450px;
-      margin: auto;
       border-radius: 8px;
       border: 1px solid #ededed;
       background: #fcf6ff;
-      margin: 0 24px;
-  
-      &:first-child {
-        margin-right: 40px;
-      }
-  
-      &:last-child {
-        margin-right: 0;
+      aspect-ratio: 1;
+
+      img {
+        max-width: 75%;
+        height: auto;
+        padding: 10px;
       }
     }
   }
