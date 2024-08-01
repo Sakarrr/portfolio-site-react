@@ -60,6 +60,10 @@
 @media (max-width: 768px) {
   .ss-intro {
     .ss-intro__title {
+      h1 {
+        flex-direction: column;
+      }
+
       span {
         display: none;
       }
