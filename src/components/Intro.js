@@ -7,7 +7,14 @@ const IntroSection = () => {
       <div className="ss-container">
         <div className="ss-row">
           <div className="ss-intro__title">
-            <h1>Hello, I am Sakar Shrestha.</h1> <span>👋</span>
+            <h1>Hello, I am
+              <p className="glitch">
+                <span aria-hidden="true">Sakar Shrestha</span>
+                Sakar Shrestha
+                <span aria-hidden="true">Sakar Shrestha</span>
+              </p>
+            </h1>
+            <span className={"waving-hand"}>👋</span>
           </div>
           <p className="ss-intro__description">
             <p>Motivated{" "}
