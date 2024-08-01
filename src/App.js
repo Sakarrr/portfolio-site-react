@@ -11,16 +11,18 @@ import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Content />} />
-        <Route
-          path="/pdf-viewer"
-          element={<PdfViewer file=".assets/Sakar_Shrestha_CV_2024.pdf" />}
-        />
-      </Routes>
-      <ToastContainer />
-      <Footer />
+        <div className={"loader"} id={"loader"}></div>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Content />} />
+                <Route
+                    path="/pdf-viewer"
+                    element={<PdfViewer file=".assets/Sakar_Shrestha_CV_2024.pdf" />}
+                />
+            </Routes>
+            <ToastContainer />
+            <Footer />
+
     </Router>
   );
 };
