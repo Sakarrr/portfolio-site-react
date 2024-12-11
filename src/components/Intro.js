@@ -1,5 +1,9 @@
 import React from "react";
 import cv from "../assets/Sakar_Shrestha_CV_2024.pdf";
+import { Link } from "react-router-dom";
+import github from "../assets/GitHub.png";
+import linkedin from "../assets/LinkedIn.png";
+import resume from "../assets/Resume.png";
 
 const IntroSection = () => {
   return (
@@ -7,19 +11,16 @@ const IntroSection = () => {
       <div className="ss-container">
         <div className="ss-row">
           <div className="ss-intro__title">
-            <h1>Hello, I am
-              <p className="glitch">
-                <span aria-hidden="true">Sakar Shrestha</span>
-                Sakar Shrestha
-                <span aria-hidden="true">Sakar Shrestha</span>
-              </p>
+            <h1 className="glitch">
+              <span aria-hidden="true">Hello, I'm Sakar Shrestha</span>
+              Hello, I'm Sakar Shrestha
+              <span aria-hidden="true">Hello, I'm Sakar Shrestha</span>
             </h1>
-            <span className={"waving-hand"}>👋</span>
           </div>
           <p className="ss-intro__description">
             <p>Motivated{" "}
               <b>
-                <i>WordPress Developer </i>
+                <i>FrontEnd Developer </i>
               </b>{" "}
               and{" "}
               <b>
@@ -27,11 +28,37 @@ const IntroSection = () => {
               </b>
               . <br></br>
             </p>
-            <p>Working with my hands to make magic happen on the internet.</p>
+            <p className="ss-intro__desc">Transforming creative visions into pixel-perfect realities on the web. Feel free to checkout my <a href="/">Projects</a>, 
+             <a href="/">Resume</a>, or you can directly contact me at <a href="/">ctha.sakar@gmail.com</a> Building the future, one line of code at a time.</p>
           </p>
           <p className={"ss-intro__tagline"}>
             Currently pursuing knowledge and embracing new challenges.
           </p>
+          <div className="ss-social-media__links">
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <a
+                  href="https://github.com/Sakarrr"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="ss-header__navbar__link"
+                >
+                  <img src={github} alt="github" />
+                </a>
+
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <a
+                  href="https://www.linkedin.com/in/sakarshrestha97/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="ss-header__navbar__link"
+                >
+                  <img src={linkedin} alt="github" />
+                </a>
+
+                <Link to="/pdf-viewer" className="ss-header__navbar__link">
+                  <img src={resume} alt="Resume" />
+                </Link>
+              </div>
           <span className="ss-intro__download-cv">
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href={cv} download="Sakar_Shrestha_CV_2024.pdf">

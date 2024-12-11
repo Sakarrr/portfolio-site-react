@@ -21,7 +21,7 @@ const App = () => {
                 />
             </Routes>
             <ToastContainer />
-            <Footer />
+            {/* <Footer /> */}
 
     </Router>
   );

@@ -1,6 +1,10 @@
 .ss-intro {
+  .ss-container {
+    max-width: 1140px;
+    margin: auto;
+  }
   .ss-row {
-    padding: 200px;
+    padding: 150px 80px;
   }
   display: grid;
   margin: 10px 10px 40px 10px;
@@ -16,7 +20,7 @@
       display: flex;
       gap: 10px;
       font-family: "Frank Ruhl Libre", sans-serif;
-      font-size: 70px;
+      font-size: 64px;
       font-weight: 700;
     }
 
@@ -75,16 +79,30 @@
   .ss-intro__description {
     margin: 0 0 32px 0;
     color: #212529;
-    font-family: "Roboto";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 36px;
+  }
+
+  .ss-intro__desc {
+    margin-top: 20px;
   }
 
   .ss-intro__tagline {
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
+  }
+
+  .ss-social-media__links {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+    img {
+      width: 24px;
+      height: 20px;
+    }
   }
 
   .ss-intro__download-cv {
